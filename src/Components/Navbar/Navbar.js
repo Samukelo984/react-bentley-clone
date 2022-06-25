@@ -222,6 +222,8 @@ const Navbar = () => {
             <a id="nav-text-two" href=""> CONFIGURATOR </a>
             <a id="nav-text-two" href=""> LOACATE DEALER</a> 
           </div>
+
+          
         </div> 
     </div>
   ) 
