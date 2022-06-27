@@ -1,0 +1,18 @@
+
+
+/* HOME-TITLE CODE */ 
+.home-title {
+    max-width: 1349px;
+    width: fit-content;
+    max-height: 337.250px; 
+    height: fit-content; 
+    font-family: sans-serif; 
+} 
+
+.ht-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  

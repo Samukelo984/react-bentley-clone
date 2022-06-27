@@ -4,8 +4,8 @@ import {Route} from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import BgImages from "../BackgroundImages/BgImages";
 import ImageSlider from "../BackgroundImages/ImageSlider"; 
-import HomeTitles from "../HomeTitles/HomeTitles";
-
+import HomeAnchors from "../HomeAnchors/HomeAnchors";
+ 
 const Home = () => {
   return (
     <div>
@@ -18,10 +18,10 @@ const Home = () => {
         </Route>
 
         <Route>
-          <HomeTitles />  
-        </Route>
+          <HomeAnchors /> 
+        </Route> 
 
-         
+          
     </div>
   )
 };     
