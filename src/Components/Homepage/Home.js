@@ -3,6 +3,8 @@ import React from "react";
 import {Route} from "react-router-dom"; 
 import Navbar from "../Navbar/Navbar";
 import BgImages from "../BackgroundImages/BgImages";
+import ImageSlider from "../BackgroundImages/ImageSlider"; 
+import HomeTitles from "../HomeTitles/HomeTitles";
 
 const Home = () => {
   return (
@@ -12,7 +14,11 @@ const Home = () => {
         </Route>
 
         <Route>
-          <BgImages /> 
+          <BgImages slides={ImageSlider} />  
+        </Route>
+
+        <Route>
+          <HomeTitles />  
         </Route>
 
          

@@ -1,0 +1,80 @@
+import React, {useState} from "react";  
+import {AiOutlineRight,AiOutlineLeft} from "react-icons/ai"; 
+
+const ImageSlider = () => {
+
+return ( 
+
+    <div className="bg-images">
+        <div className="arrows"> 
+        <AiOutlineLeft className="left-arrow" />  
+        <AiOutlineRight className="right-arrow" />  
+        </div> 
+ 
+{/* IMAGE 1 = FIRST BENTLEYS */}
+        <div className="bg-image"> 
+ 
+            <div className="inner-image"> <img src="https://www.bentleymotors.com/content/dam/bentley/Master/homepage%20carousel/hpc%201920x1080%202%20Speed_6_ExtendedCanvas_v1a.jpg/_jcr_content/renditions/original.image_file.1365.768.file/hpc%201920x1080%202%20Speed_6_ExtendedCanvas_v1a.jpg"
+             />  
+            
+            </div>
+            <div className="inner-text"> </div>
+
+        </div>
+
+        {/* IMAGE 1 = FLYING SPUR */} 
+        <div className="bg-image"> 
+
+            <div className="inner-image"> <img src="https://www.bentleymotors.com/content/dam/bentley/Master/homepage%20carousel/derivative-strategy/hpc%201920x1080%20flying%20spur%20s%20dynamic%20hero.jpg/_jcr_content/renditions/original.image_file.1365.768.file/hpc%201920x1080%20flying%20spur%20s%20dynamic%20hero.jpg" 
+            />   
+            
+            </div>
+            <div className="inner-text"> </div>
+
+        </div>
+
+        {/* IMAGE 1 = CONTINENTAL GT */}
+        <div className="bg-image">
+
+            <div className="inner-image"> <img src="https://www.bentleymotors.com/content/dam/bentley/Master/Models/derivative-strategy-/continental-gt/gt-s/hpc%201920x1080%20GT%20S%20updated.jpg/_jcr_content/renditions/original.image_file.1365.768.file/hpc%201920x1080%20GT%20S%20updated.jpg" 
+            />   
+            </div>
+            <div className="inner-text"> </div>
+
+        </div>
+
+        {/* IMAGE 1 = CONTINENTAL GTC */}
+        <div className="bg-image">
+
+            <div className="inner-image"> <img src="https://www.bentleymotors.com/content/dam/bentley/Master/Models/derivative-strategy-/continental-gtc/gtc-s/hpc%201920x1080%20GTC%20S%20updated.jpg/_jcr_content/renditions/original.image_file.1365.768.file/hpc%201920x1080%20GTC%20S%20updated.jpg"
+             />  
+             </div> 
+            <div className="inner-text"> </div>
+
+        </div>
+
+        {/* IMAGE 1 = BENTEYGA EWB */}
+        <div className="bg-image">
+
+            <div className="inner-image"> <img src="https://www.bentleymotors.com/content/dam/bentley/Master/homepage%20carousel/derivative-strategy/hpc%201920x1080%20BentaygaEWB%20Range%20Azure_Static_RGB.jpg/_jcr_content/renditions/original.image_file.1365.768.file/hpc%201920x1080%20BentaygaEWB%20Range%20Azure_Static_RGB.jpg"
+             />  
+             </div>
+            <div className="inner-text"> </div>
+
+        </div>
+
+        {/* IMAGE 1 = BENTEYGA */} 
+        <div className="bg-image">
+
+            <div className="inner-image"> <img src="https://www.bentleymotors.com/content/dam/bentley/Master/homepage%20carousel/derivative-strategy/hpc%201920x1080%2023MY_Bentayga%20Azure%20front%203-4%20static%20CMYK.jpg/_jcr_content/renditions/original.image_file.1365.768.file/hpc%201920x1080%2023MY_Bentayga%20Azure%20front%203-4%20static%20CMYK.jpg" 
+            />  
+            </div>
+            <div className="inner-text"> </div>
+
+        </div>  
+
+    </div>
+  )
+}; 
+
+export default ImageSlider;  

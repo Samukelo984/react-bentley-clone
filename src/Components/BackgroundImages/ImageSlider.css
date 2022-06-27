@@ -1,0 +1,83 @@
+ 
+
+ .slider {
+   max-width: 1366px;  
+   width: fit-content;    
+   min-height: 300px; 
+   position: relative;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;    
+}
+ 
+
+ 
+.bentley-cars {
+   width: 100%;   
+    height: auto ;   
+    max-height: 578.141px; 
+    display: flex;
+    align-items: center;
+    line-height: initial;
+}
+
+ .left-arrow {
+    top: 70%; 
+    left: 5%;  
+    z-index: 1111; 
+    font-size: 2rem;  
+    color: aqua;  
+     position: absolute;
+     cursor: pointer;
+ }
+ 
+ .right-arrow { 
+   top: 70%; 
+   left: 15%;  
+   z-index: 1111; 
+   font-size: 2rem;  
+   color: aqua;   
+    position: absolute;
+    cursor: pointer;
+ } 
+
+
+/* 
+ .slide {
+   transition-duration: 1s ease;
+ }
+
+ .slide.active {
+   transition-duration: 1s; 
+   transform: scale(1.0); 
+ } */
+ /* .inner-image {
+    width: 100%;
+    height: 578px;  
+    top: 50%; 
+     transform: translateY(-50%); 
+    display: block;
+    position: relative; 
+ }     */
+
+
+   
+ 
+/* BACKGROUND TEXT CODE */
+
+.image-text {
+   position: absolute;
+   color: white;  
+}
+
+/*  */
+
+ /* @media screen and (min-width:1366px){
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    position: absolute;
+    top: 0;
+    background: none;
+ } */
